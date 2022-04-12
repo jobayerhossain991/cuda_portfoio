@@ -1,0 +1,44 @@
+@media all and (max-width: 768) {
+	.container{
+		max-width: 95%;
+	}
+	.logo{
+		width: 100%;
+		float: none;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+	.main-menu ul{
+		float: none;
+	}
+	.main-menu ul li{
+		float: none;
+	}
+	.col-4{
+		width: 46%;
+		margin: 0 2%;
+		margin-bottom: 30px;
+	}
+}
+
+@media all and (max-width: 600){
+	.col-4{
+		width: 96%;
+		float: none;
+	}
+	.call-action img{
+		width: auto;
+		height: auto;
+		max-width: 40%;
+	}
+	.portfolio-item {
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 40px;
+	}
+	.testimonial .client {
+		width: 90%;
+		margin-left: 5%;
+		margin-bottom: 40px;
+	}
+}
